@@ -29,11 +29,11 @@ class FilteredContent extends Component {
 
 	filterItem = (item) => {
 		return(
-			(item.apt===this.state.apt || this.state.apt===0) &&
-			(item.barks===this.state.barks || this.state.barks===0) &&
-			(item.quiet===this.state.quiet || this.state.quiet===0) &&
-			(item.drools===this.state.drools || this.state.drools===0) &&
-			(item.kids===this.state.kids || this.state.kids===0)
+			(item.apt==this.state.apt || this.state.apt==0) &&
+			(item.barks==this.state.barks || this.state.barks==0) &&
+			(item.quiet==this.state.quiet || this.state.quiet==0) &&
+			(item.drools==this.state.drools || this.state.drools==0) &&
+			(item.kids==this.state.kids || this.state.kids==0)
 			)
 	}
 
